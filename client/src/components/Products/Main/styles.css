@@ -1,0 +1,113 @@
+.main .main-content {
+    display: block;
+    width: 100%;
+    margin-left: 15rem;
+  }
+  .main-content {
+    padding: 1rem;
+    position: relative;
+  }
+  
+  .main-content input {
+    padding: 1rem;
+    width: 96%;
+    position: relative;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  .main-content .filters {
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+  
+  .main-content .filter {
+    flex: 1;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--grey);
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .main-content .active {
+    background-color: black;
+    color: white;
+  }
+  
+  .main-content section {
+    margin-top: 1.2rem;
+  }
+  
+  .main-content section title {
+    display: block;
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  
+  
+  
+  .main-content .items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 10px 0;
+  }
+  
+  .main-content .items .item {
+    border: 1px solid var(--grey);
+  }
+  
+  .main-content .items .item img {
+    width: 100%;
+    height: 300px;
+   
+  }
+  
+  .main-content .items .item .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-content .items .item .info {
+    padding: 1rem;
+  }
+  
+  .main-content .items .item button {
+    width: 100%;
+    border-radius: none;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
+  
+  .main-content .items .item .colors {
+    display: flex;
+    margin: .5rem 0;
+  }
+  
+  .main-content .items .item .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 0 5px;
+  }
+
+  .product-container{
+    border: 2px solid red;
+  }
+
+  .name{
+    font-size: 20px;
+    padding-bottom: .3rem;
+  }
+
+  .catagory{
+    margin-bottom: .3rem;
+  }

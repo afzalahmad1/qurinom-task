@@ -1,0 +1,32 @@
+ul {
+    list-style: none;
+  }
+  /* nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+  
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+  } */
+  
+  
+  
+ 
+  
+  .main {
+    display: flex;
+    /* height: 100vh; */
+    /* border: 2px solid red; */
+  }
+  
+
+  
+  
+  

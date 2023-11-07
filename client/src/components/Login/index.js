@@ -30,7 +30,7 @@ const Login = ({type}) => {
   const handleSubmit = (e) => {
     loginObj.type = type;
     axios
-      .post(`http://localhost:5001/user/login`, loginObj)
+      .post(`https://qurinom.onrender.com/user/login`, loginObj)
       .then((res) => {
         // console.log(res.data.data.token);
         console.log(res.data.token);

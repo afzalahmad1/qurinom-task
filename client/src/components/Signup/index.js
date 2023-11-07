@@ -24,7 +24,7 @@ const Signup = ({type}) => {
     try {
         user.type = type;
       const data = await axios.post(
-        "http://localhost:5001/user/register",
+        "https://qurinom.onrender.com/user/register",
         user
         );
       console.log(data);

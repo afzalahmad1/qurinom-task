@@ -15,7 +15,7 @@ const Products = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get(`http://localhost:5001/api/getAll`);
+        const res = await axios.get(`https://qurinom.onrender.com/api/getAll`);
         console.log(res.data.products);
         setProductArr(res.data.products);
       } catch (error) {

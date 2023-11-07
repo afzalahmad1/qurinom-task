@@ -17,7 +17,7 @@ const AddProduct = () => {
     }
     const addProduct = async ()=>{
         try {
-            const res = await axios.post(`http://localhost:5001/api/addProduct`,product)
+            const res = await axios.post(`https://qurinom.onrender.com/api/addProduct`,product)
             console.log(res)
             alert(res.data.message)
         } catch (error) {
